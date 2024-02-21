@@ -1,0 +1,29 @@
+.main-div {
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    padding: 32px;
+}
+
+.login-title {
+    font-weight: bolder;
+    text-align: center;
+    font-family: math;
+    font-size: 20px;
+    color: #3f51b5;
+}
+
+.mr-10 {
+    margin-right: 10px;
+    width: 16%;
+}
+
+.m-10 {
+    margin-right: 10px;
+}

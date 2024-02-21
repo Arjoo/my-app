@@ -1,0 +1,22 @@
+<div>
+    <mat-toolbar color="primary">
+        <span>{{userName}}</span>
+        <span class="spacer"></span>
+        <a mat-icon-button class="menu-icon pr" (click)="logout()"> Logout</a>
+    </mat-toolbar>
+    <div class="img-div parent">
+        <div class="child">
+            <img class="avatar-img" src="/assets/img_avatar2.png" alt="Avatar">
+        </div>
+        <div class="user-profile child">
+            <h3>User Profile</h3>
+            <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="end">
+                <mat-tab label="About">
+                    <app-about></app-about>
+                </mat-tab>
+                <mat-tab label="Activity">Content 3</mat-tab>
+                <mat-tab label="Settings">Content 2</mat-tab>
+              </mat-tab-group>
+        </div>
+    </div>
+</div>
